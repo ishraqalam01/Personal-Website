@@ -2,11 +2,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 html, body{
   height: 100%; /*Height of the body is the entire height of webpage*/
   margin: 0%;
+  background-color: rgb(243, 252, 255);
 }
 
 .container{
@@ -20,23 +22,26 @@ html, body{
 }
 
 .Name {
-  display: flex;
-  background: lightcoral;
+  display: flex; /*the name box in the container is now a flex.*/
   align-items: center;
   justify-content: center;
+
+  background: lightcoral;
   flex: 0 1 300px; /*creates responsive layout, where shrinks ONLY when screen size gets smaller. The 300px is the base width of the box*/
   height: 40vh;
 }
 
 .Options{
-  display: flex;
+  display: flex; /*the options box in the container is now a flex.*/
   align-items: center;
   justify-content: center;
+  flex-direction: column; /*makes the flex a column instead of row, so the main axis is vertical*/
+
   background: lightcoral;
   flex: 0 1 300px; /*creates responsive layout, where shrinks ONLY when screen size gets smaller*/
-  height: 40vh;
+  height: 40vh; /*This set the height of the Options box after it was flipped. This allows the "space-evenly" to spread them apart, otherwise the content would not spread out as the box height is the height of the content itself.*/
   display:flex; /*the options inside the "Options" div are flex as well*/
-  flex-direction: column;
+  
   justify-content: space-evenly;
   text-align: center;
 }
