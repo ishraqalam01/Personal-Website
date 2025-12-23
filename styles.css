@@ -7,7 +7,7 @@
 html, body{
   height: 100%; /*Height of the body is the entire height of webpage*/
   margin: 0%;
-  background-color: rgb(243, 252, 255);
+  background-color: rgb(0, 0, 0);
 }
 
 .container{
@@ -25,9 +25,11 @@ html, body{
   justify-content:center;
   flex-direction: column;
 
-  background: lightcoral;
+  /*background: rgb(93, 255, 168);*/
   flex: 0 1 330px; /*creates responsive layout, where shrinks ONLY when screen size gets smaller. The 300px is the base width of the box*/
-  height: 40vh;
+  height: 40vh; /*Creates box for the Name box*/
+  gap: 2vh; /*Separates "Ishraq" and "Education" by 2vh*/
+
 }
 
 .Options{
@@ -35,21 +37,38 @@ html, body{
   align-items: center;
   flex-direction: column; /*makes the flex a column instead of row, so the main axis is vertical*/
 
-  background: lightcoral;
+  /*background: rgb(93, 255, 168);*/
   flex: 0 1 300px; /*creates responsive layout, where shrinks ONLY when screen size gets smaller*/
   height: 40vh; /*This set the height of the Options box after it was flipped. This allows the "space-evenly" to spread them apart, otherwise the content would not spread out as the box height is the height of the content itself.*/
   display:flex; /*the options inside the "Options" div are flex as well*/
   
   justify-content: space-evenly;
   text-align: center;
+
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
 }
 
 h1, h5, h4{
   display: inline-block;
-  background: lightgreen;
+  /*background: rgb(64, 2, 127);*/
+}
+
+.Ishraq{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 100;
+  border-bottom: 3px white;
+  color: rgb(173, 197, 255);
+  border-bottom: 6px solid white;
 }
 
 .Education{
   font-style:italic;
   text-align: center;
+  font-family:monospace;
+  color: rgb(195, 223, 246);
+}
+
+.About, .Experience, .Projects, .Resume, .Blog, .Contact{
+  
 }
