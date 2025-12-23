@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 html, body{
@@ -18,23 +17,22 @@ html, body{
   justify-content: center; /*This is the horizontal location (on main axis) of the two boxes in the container div*/
   align-items: center; /*This is the vertical location (on cross axis) of the two boxes in the container div*/
   flex-wrap: wrap; /*When the screen size decreases, and the text doesn't fit, then it goes to the next line*/
-  gap: 20px;
 }
 
 .Name {
   display: flex; /*the name box in the container is now a flex.*/
   align-items: center;
-  justify-content: center;
+  justify-content:center;
+  flex-direction: column;
 
   background: lightcoral;
-  flex: 0 1 300px; /*creates responsive layout, where shrinks ONLY when screen size gets smaller. The 300px is the base width of the box*/
+  flex: 0 1 330px; /*creates responsive layout, where shrinks ONLY when screen size gets smaller. The 300px is the base width of the box*/
   height: 40vh;
 }
 
 .Options{
   display: flex; /*the options box in the container is now a flex.*/
   align-items: center;
-  justify-content: center;
   flex-direction: column; /*makes the flex a column instead of row, so the main axis is vertical*/
 
   background: lightcoral;
@@ -46,7 +44,12 @@ html, body{
   text-align: center;
 }
 
-h1, h4{
+h1, h5, h4{
   display: inline-block;
   background: lightgreen;
+}
+
+.Education{
+  font-style:italic;
+  text-align: center;
 }
