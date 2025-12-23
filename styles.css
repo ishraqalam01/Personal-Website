@@ -16,16 +16,22 @@ html, body{
   justify-content: center; /*This is the horizontal location (on main axis) of the two boxes in the container div*/
   align-items: center; /*This is the vertical location (on cross axis) of the two boxes in the container div*/
   flex-wrap: wrap; /*When the screen size decreases, and the text doesn't fit, then it goes to the next line*/
+  gap: 20px;
 }
 
 .Name {
+  display: flex;
   background: lightcoral;
+  align-items: center;
+  justify-content: center;
   flex: 0 1 300px; /*creates responsive layout, where shrinks ONLY when screen size gets smaller. The 300px is the base width of the box*/
   height: 40vh;
-  text-align: center;
 }
 
 .Options{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: lightcoral;
   flex: 0 1 300px; /*creates responsive layout, where shrinks ONLY when screen size gets smaller*/
   height: 40vh;
