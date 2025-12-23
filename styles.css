@@ -1,4 +1,27 @@
-#first-row{
-  padding: 20px;
-  background: red;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  height: 100%;
+  margin: 0;
+}
+
+.container{
+  min-height: 100%;
+  display: flex;
+  justify-content: space-between; /*This is the horizontal location (on main axis) of the two boxes in the container div*/
+  align-items: center; /*This is the vertical location (on cross axis) of the two boxes in the container div*/
+  flex-wrap: wrap; /*When the screen size decreases, and the text doesn't fit, then it goes to the next line*/
+}
+
+.Name,Options{
+  flex: 1 1 auto; /*creates responsive layout, where shrinks+grows depending on screen size*/
+}
+
+.Options{
+  display:flex;
+  flex-direction: column;
 }
