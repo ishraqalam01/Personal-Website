@@ -47,6 +47,11 @@ html, body{
   text-align: center;
 }
 
+a {
+  text-decoration: none;
+  color: inherit; /* inherit color from child */
+}
+
 h1, h5, h4{
   display: inline-block;
   /*background: rgb(64, 2, 127);*/
@@ -77,7 +82,6 @@ h1, h5, h4{
 
 /*Properties when you hover over the Options:*/
 .About:hover, .Experience:hover, .Projects:hover, .Resume:hover, .Blog:hover, .Contact:hover{
-
   color: rgb(173, 197, 255);
   transition: color 0.25s ease-out;
  }
