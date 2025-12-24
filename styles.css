@@ -44,9 +44,6 @@ html, body{
   
   justify-content: space-evenly;
   text-align: center;
-
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  color: white;
 }
 
 h1, h5, h4{
@@ -57,7 +54,7 @@ h1, h5, h4{
 .Ishraq{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: 100;
-  border-bottom: 3px white;
+  border-bottom: 3px white; /* Added a white line between Ishraq and Education*/
   color: rgb(173, 197, 255);
   border-bottom: 6px solid white;
 }
@@ -66,9 +63,37 @@ h1, h5, h4{
   font-style:italic;
   text-align: center;
   font-family:monospace;
-  color: rgb(195, 223, 246);
+  color: rgb(214, 246, 238);
 }
 
-.About, .Experience, .Projects, .Resume, .Blog, .Contact{
-  
+.About, .Experience, .Projects, .Resume, .Blog, .Contact{ /*Set the properties of all the components in Options*/
+  display: inline-block;
+  position: relative;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+  cursor: pointer;
 }
+
+/*Properties when you hover over the Options:*/
+.About:hover, .Experience:hover, .Projects:hover, .Resume:hover, .Blog:hover, .Contact:hover{
+
+  color: rgb(173, 197, 255);
+  transition: color 0.25s ease-out;
+ }
+
+ /*How to get the animated line when you hover over each option:*/
+ .About::before, .Experience::before, .Projects::before, .Resume::before, .Blog::before, .Contact::before{ 
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%; /*Initially, line starts with 0% width (ie. not there)*/
+  height: 3px;
+  background-color: white;
+  transition: width 0.25s ease-out;
+ }
+
+ /*Line width changes to 100% when hovered over*/
+ .About:hover::before, .Experience:hover::before, .Projects:hover::before, .Resume:hover::before, .Blog:hover::before, .Contact:hover::before{ 
+  width: 100%;
+ }
