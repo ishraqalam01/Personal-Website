@@ -8,10 +8,11 @@ html, body{
   height: 100%; /*Height of the body is the entire height of webpage*/
   margin: 0%;
   background-color: rgb(0, 0, 0);
+  min-height: 100vh;
 }
 
 .container{
-  min-height: 100%; /*The container height is the entire height of webpage (possible since body is entire webpage*/
+  min-height: 95%; /*The container height is the entire height of webpage (possible since body is entire webpage*/
   
   display: flex; /*activates flexbox*/
   justify-content: center; /*This is the horizontal location (on main axis) of the two boxes in the container div*/
@@ -97,3 +98,10 @@ h1, h5, h4{
  .About:hover::before, .Experience:hover::before, .Projects:hover::before, .Resume:hover::before, .Blog:hover::before, .Contact:hover::before{ 
   width: 100%;
  }
+
+footer .Copyright{
+  display: flex;
+  color: white;
+  justify-content: center;
+}
+
