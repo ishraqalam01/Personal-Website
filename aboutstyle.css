@@ -28,6 +28,11 @@ a {
   color: inherit; 
 }
 
+p{
+  text-decoration: none;
+  color: inherit;
+}
+
 .navbar{
   background-color: black;
 }
@@ -46,15 +51,30 @@ a {
   transition: color 0.25s ease-out;
 }
 
+nav .container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
 .container{
   min-height: 95%;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
+  flex-direction: column;
 }
 
 .AboutHeader{
   color: white;
+}
+
+.AboutContent{
+  color: white;
+  max-width: 60%;
+  border: 3px solid blue;
+  padding: 10px;
 }
 
 
