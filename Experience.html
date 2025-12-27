@@ -1,49 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Ishraq Alam</title>
+  <title>Experience - Ishraq Alam</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="experiencestyle.css"> 
 </head>
 
 <body>
+  <!--Navbar set up -->
+  <nav class="navbar navbar-expand-md navbar-dark"> <!--Uses utility classes navbar-dark and bg-dark to set the navbar background to dark mode-->
   <div class="container">
-    <div class="Name">
-      <div class="Ishraq">
-        <h1>Ishraq Alam</h1>
-      </div>
+    <a class="navbar-brand" href="page.html">Ishraq Alam</a> <!--Name at the top left of navbar-->
 
-      <div class="Education">
-        <h5>Electrical & Computer Engineering @ University of Toronto</h5>
+    <!--Toggle Button that is triggered when screen size decreases, showing the menu options-->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!--Sections in the Navbar here-->
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link" href="About.html">About</a> <!--aria current means "this is the current page you are on"-->
+        <a class="nav-link active" aria-current="page" href="Experience.html">Experience</a>
+        <a class="nav-link" href="Projects.html">Projects</a>
+        <a class="nav-link" href="#">Resume</a>
+        <a class="nav-link" href="Blog.html">Blog</a>
+        <a class="nav-link" href="#">Contact</a>
       </div>
     </div>
+  </div>
+</nav>
 
-    <div class="Options">
-      <div class="About">
-        <a><h4>About</h4></a>
-      </div>
+  <div class="container">
+    <div class="ExperienceHeader">
+      <h1>Experience</h1>
+    </div>
 
-      <div class="Experience">
-        <h4>Experience</h4>
-      </div>
-
-      <div class="Projects">
-        <h4>Projects</h4>
-      </div>
-
-      <div class="Resume">
-        <h4>Resume</h4>
-      </div>
-
-      <div class="Blog">
-        <h4>Blog</h4>
-      </div>
-
-      <div class="Contact">
-        <h4>Contact</h4>
-      </div>
+    <div class="ExperienceContent">
+      <h5 class="Organization">
+        IEEE University of Toronto Branch
+      </h5>
+      <p class="Position">
+        Tech Team Associate
+      </p>
+      <p class="Description">
+        Blah blah blah
+      </p>
     </div>
   </div>
 

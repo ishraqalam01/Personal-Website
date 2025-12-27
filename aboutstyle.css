@@ -42,9 +42,9 @@ p{
   transition: background-color 0.25s ease-out;
 }
 
-.navbar-nav{
-  /*background-color: lightcoral;*/
-}
+/*.navbar-nav{
+  background-color: lightcoral;
+}*/
 
 .navbar-dark .navbar-nav .nav-link{ /*Need to mention navbar-dark first to OVERRIDE the default setting it has*/
   color:white;
