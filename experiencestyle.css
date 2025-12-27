@@ -82,7 +82,7 @@ nav .container {
 }
 
 .ExperienceContent{
-  background-color: green;
+  min-width: 100%;
   color: white;
   border-top: 1px solid rgb(173, 197, 255);
   /*border: 3px solid rgb(173, 197, 255);*/
