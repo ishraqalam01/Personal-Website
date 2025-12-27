@@ -72,6 +72,9 @@ nav .container {
 }
 
 .ContactHeader{
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
   color: white;
   margin-top: 2vh;
   margin-left: 2vh;
@@ -85,9 +88,10 @@ nav .container {
   min-width: 100%;
   display: flex;
   flex-wrap: wrap;
+  flex: 0 1 200px;
+  gap: 20px;
 
-
-  justify-content:space-between;
+  justify-content:center;
   color: white;
   border-top: 1px solid rgb(173, 197, 255);
   /*border: 3px solid rgb(173, 197, 255);*/
@@ -113,6 +117,7 @@ nav .container {
   border-radius: 30px;
   background-color: rgb(43, 52, 71);
   padding: 2vh;
+  min-width: 16em;
 }
 
 .ContactContent .linkedin{
@@ -120,6 +125,7 @@ nav .container {
   border-radius: 30px;
   background-color: rgb(43, 52, 71);
   padding: 2vh;
+  min-width: 16em;
 }
 
 .ContactContent .github{
@@ -127,6 +133,7 @@ nav .container {
   border-radius: 30px;
   background-color: rgb(43, 52, 71);
   padding: 2vh;
+  min-width: 16em;
 }
 
 .ContactContent .email:hover, .ContactContent .github:hover, .ContactContent .linkedin:hover{
