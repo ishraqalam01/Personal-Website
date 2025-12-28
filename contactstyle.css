@@ -118,6 +118,7 @@ nav .container {
   background-color: rgb(43, 52, 71);
   padding: 2vh;
   min-width: 16em;
+  text-align: center;
 }
 
 .ContactContent .linkedin{
@@ -126,6 +127,7 @@ nav .container {
   background-color: rgb(43, 52, 71);
   padding: 2vh;
   min-width: 16em;
+  text-align: center;
 }
 
 .ContactContent .github{
@@ -134,10 +136,12 @@ nav .container {
   background-color: rgb(43, 52, 71);
   padding: 2vh;
   min-width: 16em;
+  text-align: center;
 }
 
 .ContactContent .email:hover, .ContactContent .github:hover, .ContactContent .linkedin:hover{
   background-color: rgb(59, 22, 59);
+  transition: background-color 0.5s;
 }
 
 
