@@ -103,7 +103,7 @@ nav .container {
 }
 
 .Organization{
-
+color: rgb(207, 159, 255);
 }
 
 .Timeline{
@@ -112,7 +112,8 @@ color:antiquewhite;
 }
 
 .Description{
-
+padding-bottom: 3vh;
+border-bottom: 1px dashed white;
 }
 
 footer .Copyright{
