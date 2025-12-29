@@ -120,6 +120,12 @@ nav .container {
   text-align: center;
 }
 
+.icon{
+  margin-top: 3px;
+  margin-bottom: -8px;
+  font-size: 60px;
+}
+
 .ContactContent .linkedin{
   border: 3px double rgb(186, 232, 255);
   border-radius: 30px;
