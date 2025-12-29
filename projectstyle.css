@@ -108,6 +108,15 @@ nav .container {
 
 .Skills{
   display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.SubSkill{
+  border: 2px solid rgb(188, 242, 252);
+  background-color:rgb(28, 28, 60);
+  padding: 10px;
+  border-radius: 20px;
 }
 
 footer .Copyright{
