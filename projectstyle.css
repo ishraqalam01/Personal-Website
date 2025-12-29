@@ -82,7 +82,8 @@ nav .container {
 }
 
 .ProjectContent{
-
+  display: flex;
+  flex-direction: column;
 }
 
 footer .Copyright{
