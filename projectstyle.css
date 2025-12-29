@@ -97,7 +97,17 @@ nav .container {
   
   text-align: center;
   border: 3px solid rgb(173, 197, 255);
-  border-radius: 15px;
+  border-radius: 17px;
+  padding: 20px;
+}
+
+.Name{
+  color: rgb(228, 200, 255);
+  padding-bottom: 10px;
+}
+
+.Skills{
+  display: flex;
 }
 
 footer .Copyright{
