@@ -108,3 +108,22 @@ footer .Copyright{
   justify-content: center;
 }
 
+@media (max-width: 762px) { /*When screen size becomes 800px, then it automatically becomes 1 column instead of 2 columns for Projects.*/
+  .container{
+    min-height: 70%;
+  }
+
+  footer .Copyright{
+    padding-top: 20%;
+  }
+}
+
+@media (max-width: 800px) { /*When screen size becomes 800px, then it automatically becomes 1 column instead of 2 columns for Projects.*/
+  .container{
+    min-height: 50%;
+  }
+
+  footer .Copyright{
+    padding-top: 15%;
+  }
+}
