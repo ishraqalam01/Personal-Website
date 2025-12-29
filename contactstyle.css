@@ -114,7 +114,7 @@ nav .container {
 .ContactContent .email{
   border: 3px double rgb(186, 232, 255);
   border-radius: 30px;
-  background-color: rgb(43, 52, 71);
+  background-color: rgb(14, 0, 33);
   padding: 2vh;
   min-width: 16em;
   text-align: center;
@@ -129,7 +129,7 @@ nav .container {
 .ContactContent .linkedin{
   border: 3px double rgb(186, 232, 255);
   border-radius: 30px;
-  background-color: rgb(43, 52, 71);
+  background-color: rgb(14, 0, 33);
   padding: 2vh;
   min-width: 16em;
   text-align: center;
@@ -138,14 +138,14 @@ nav .container {
 .ContactContent .github{
   border: 3px double rgb(186, 232, 255);
   border-radius: 30px;
-  background-color: rgb(43, 52, 71);
+  background-color: rgb(14, 0, 33);
   padding: 2vh;
   min-width: 16em;
   text-align: center;
 }
 
 .ContactContent .email:hover, .ContactContent .github:hover, .ContactContent .linkedin:hover{
-  background-color: rgb(59, 22, 59);
+  background-color:rgb(28, 28, 60);
   transition: background-color 0.5s;
 }
 
