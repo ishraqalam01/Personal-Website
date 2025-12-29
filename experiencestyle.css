@@ -103,7 +103,8 @@ nav .container {
 }
 
 .Organization{
-color: rgb(228, 200, 255);
+/*color: rgb(228, 200, 255);*/
+color: white;
 }
 
 .Timeline{
@@ -114,6 +115,7 @@ color:antiquewhite;
 .Description{
 padding-bottom: 3vh;
 border-bottom: 1px dashed white;
+color: rgb(162, 162, 162)
 }
 
 footer .Copyright{

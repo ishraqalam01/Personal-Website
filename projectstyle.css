@@ -97,6 +97,7 @@ nav .container {
   
   text-align: center;
   border: 3px solid rgb(173, 197, 255);
+  background-color: rgb(14, 0, 33);
   border-radius: 17px;
   padding: 20px;
 }
@@ -117,6 +118,12 @@ nav .container {
   background-color:rgb(28, 28, 60);
   padding: 10px;
   border-radius: 20px;
+}
+
+@media (max-width: 800px) { /*When screen size becomes 800px, then it automatically becomes 1 column instead of 2 columns for Projects.*/
+  .ProjectBox {
+    flex: 0 0 100%;
+  }
 }
 
 footer .Copyright{
