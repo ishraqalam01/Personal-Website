@@ -103,13 +103,15 @@ nav .container {
 }
 
 .Name{
-  color: rgb(228, 200, 255);
+  /*color: rgb(228, 200, 255);*/
+  color: white;
   padding-bottom: 10px;
 }
 
 .Skills{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 10px;
   flex-wrap: wrap;
 }
 
@@ -120,7 +122,7 @@ nav .container {
   padding-bottom: 0px;
   padding-left: 5px;
   padding-right: 5px;
-  border-radius: 15px;
+  border-radius: 10px;
 }
 
 @media (max-width: 800px) { /*When screen size becomes 800px, then it automatically becomes 1 column instead of 2 columns for Projects.*/
