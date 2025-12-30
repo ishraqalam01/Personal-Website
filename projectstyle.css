@@ -116,8 +116,11 @@ nav .container {
 .SubSkill{
   border: 2px solid rgb(188, 242, 252);
   background-color:rgb(28, 28, 60);
-  padding: 10px;
-  border-radius: 20px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 15px;
 }
 
 @media (max-width: 800px) { /*When screen size becomes 800px, then it automatically becomes 1 column instead of 2 columns for Projects.*/
