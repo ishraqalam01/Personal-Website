@@ -99,12 +99,12 @@ nav .container {
   border: 3px solid rgb(173, 197, 255);
   background-color: rgb(14, 0, 33);
   border-radius: 30px;
-
+  padding: 20px;
 }
 
 .Name{
   color: rgb(228, 200, 255);
-  padding: 20px;
+ 
 }
 
 .Skills{
