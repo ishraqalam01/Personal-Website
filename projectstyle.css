@@ -63,13 +63,18 @@ nav .container {
   flex-direction: row;
 }
 
+/*.Screen{
+  background-color: yellow;
+  display: grid;
+}*/
 
-.Screen .container{
+.container{
   min-height: 88%;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
   flex-direction: column;
+
 }
 
 .ProjectHeader{
@@ -131,7 +136,7 @@ nav .container {
   height: auto;
 }
 
-img{
+.container img{
   display: block;
   max-inline-size: 100%;
   width: 100%;
