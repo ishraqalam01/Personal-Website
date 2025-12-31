@@ -63,10 +63,10 @@ nav .container {
   flex-direction: row;
 }
 
-.Screen{
+/*.Screen{
   background-color: yellow;
 
-}
+}*/
 
 .container{
   min-height: 88%;
@@ -96,6 +96,7 @@ nav .container {
   column-gap: 80px;
   row-gap: 3vh;
   color: white;
+  font-size: clamp(14px, 1.2vw, 18px);
 }
 
 .ProjectBox{
@@ -108,9 +109,12 @@ nav .container {
   padding: 20px;
 }
 
+h5{
+  font-size: clamp(18px, 1.6vw, 24px); /*What clamp is doing: clamp(min, prefer, max) --> it keeps the text the size of prefer, but if it gets too small/big it keeps it within this range of acceptable sizes (14px-28px)*/
+}
 .Name{
   color: rgb(228, 200, 255);
- 
+  
 }
 
 .Skills{
