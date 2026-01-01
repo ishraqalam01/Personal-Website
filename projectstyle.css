@@ -144,7 +144,10 @@ h5{
   border: 2px solid rgb(118, 29, 196);
   background-color: rgb(228, 200, 255);
   border-radius: 20px;
-  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   color: black;
 }
 
@@ -154,6 +157,7 @@ h5{
   border-color: rgb(255, 194, 255);
   color: white;
   transition: background-color 0.25s ease-out;
+
 }
 
 @media (max-width: 800px) { /*When screen size becomes 800px, then it automatically becomes 1 column instead of 2 columns for Projects.*/
