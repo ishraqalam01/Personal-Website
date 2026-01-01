@@ -154,7 +154,6 @@ h5{
   border-color: rgb(255, 194, 255);
   color: white;
   transition: background-color 0.25s ease-out;
-  transition: color 0.25s ease-out;
 }
 
 @media (max-width: 800px) { /*When screen size becomes 800px, then it automatically becomes 1 column instead of 2 columns for Projects.*/
