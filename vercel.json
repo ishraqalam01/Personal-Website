@@ -1,32 +1,5 @@
 {
 
-  "cleanUrls": true,
-
-  "redirects": [
-    {
-      "source": "/About",
-      "destination": "/",
-      "permanent": false
-    },
-    {
-      "source": "/Contact",
-      "destination": "/",
-      "permanent": false
-    },
-    {
-      "source": "/Blog",
-      "destination": "/",
-      "permanent": false
-    },
-    {
-      "source": "/Experience",
-      "destination": "/",
-      "permanent": false
-    },
-    {
-      "source": "/Projects",
-      "destination": "/",
-      "permanent": false
-    }
-  ]
+  "cleanUrls": true
+  
 }
