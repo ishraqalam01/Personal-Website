@@ -1,4 +1,7 @@
 {
+
+  "cleanUrls": true,
+
   "redirects": [
     {
       "source": "/About",
