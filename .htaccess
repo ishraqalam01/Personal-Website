@@ -1,9 +1,0 @@
-RewriteEngine On
-
-# For index remove .html
-RewriteCond %{THE_REQUEST} /index\.html
-RewriteRule ^(.*)index\.html$ /$1 [R=301,L]
-
-# For all pages, remove .html
-RewriteCond %{REQUEST_FILENAME}.html -f
-RewriteRule ^(.+)$ $1.html [L]
