@@ -1,17 +1,20 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-html, body{
-  height: 100%; /*Height of the body is the entire height of webpage*/
+html,
+body {
+  height: 100%;
+  /*Height of the body is the entire height of webpage*/
   margin: 0%;
   background-color: rgb(0, 0, 0);
   min-height: 100vh;
 }
 
-.navbar-dark .navbar-brand { /*Need to mention navbar-dark first to OVERRIDE the default setting it has*/
+.navbar-dark .navbar-brand {
+  /*Need to mention navbar-dark first to OVERRIDE the default setting it has*/
   /*background-color: green;*/
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: 100;
@@ -19,25 +22,27 @@ html, body{
   padding-right: 6%;
 }
 
-.navbar-dark .navbar-brand:hover { /*Need to mention navbar-dark first to OVERRIDE the default setting it has*/
-  color: white; /*Color of Name at top left changes to white when hovering*/
+.navbar-dark .navbar-brand:hover {
+  /*Need to mention navbar-dark first to OVERRIDE the default setting it has*/
+  color: white;
+  /*Color of Name at top left changes to white when hovering*/
 }
 
 a {
   text-decoration: none;
-  color: inherit; 
+  color: inherit;
 }
 
-p{
+p {
   text-decoration: none;
   color: inherit;
 }
 
-.navbar{
+.navbar {
   background-color: rgb(0, 0, 0);
 }
 
-.navbar:hover{
+.navbar:hover {
   background-color: rgb(84, 97, 126);
   transition: background-color 0.25s ease-out;
 }
@@ -46,12 +51,14 @@ p{
   background-color: lightcoral;
 }*/
 
-.navbar-dark .navbar-nav .nav-link{ /*Need to mention navbar-dark first to OVERRIDE the default setting it has*/
-  color:white;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.navbar-dark .navbar-nav .nav-link {
+  /*Need to mention navbar-dark first to OVERRIDE the default setting it has*/
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.navbar-dark .navbar-nav .nav-link:hover{ /*Need to mention navbar-dark first to OVERRIDE the default setting it has*/
+.navbar-dark .navbar-nav .nav-link:hover {
+  /*Need to mention navbar-dark first to OVERRIDE the default setting it has*/
   color: rgb(173, 197, 255);
   transition: color 0.25s ease-out;
 }
@@ -68,7 +75,7 @@ nav .container {
 
 }*/
 
-.container{
+.container {
   min-height: 88%;
   display: flex;
   justify-content: flex-start;
@@ -77,7 +84,7 @@ nav .container {
 
 }
 
-.ProjectHeader{
+.ProjectHeader {
   color: white;
   margin-top: 2vh;
   margin-left: 2vh;
@@ -87,7 +94,7 @@ nav .container {
   min-width: 100%;
 }
 
-.ProjectContent{
+.ProjectContent {
   display: flex;
   min-width: 100%;
   border-top: 1px solid rgb(173, 197, 255);
@@ -99,34 +106,37 @@ nav .container {
   font-size: clamp(14px, 1.2vw, 18px);
 }
 
-.ProjectBox{
-  flex: 0 0 calc(50% - 40px); /*This makes the size of each BOX the difference between 50% of the entire width (which is 100%) and the gap, so that the boxes don't overflow*/
+.ProjectBox {
+  flex: 0 0 calc(50% - 40px);
+  /*This makes the size of each BOX the difference between 50% of the entire width (which is 100%) and the gap, so that the boxes don't overflow*/
 
   text-align: center;
-  border: 3px solid rgb(173, 197, 255);
+  border: 3px solid rgb(0, 44, 146);
   background-color: rgb(14, 0, 33);
   border-radius: 30px;
   padding: 20px;
 }
 
-h5{
-  font-size: clamp(18px, 1.6vw, 24px); /*What clamp is doing: clamp(min, prefer, max) --> it keeps the text the size of prefer, but if it gets too small/big it keeps it within this range of acceptable sizes (14px-28px)*/
-}
-.Name{
-  color: rgb(228, 200, 255);
-  
+h5 {
+  font-size: clamp(18px, 1.6vw, 24px);
+  /*What clamp is doing: clamp(min, prefer, max) --> it keeps the text the size of prefer, but if it gets too small/big it keeps it within this range of acceptable sizes (14px-28px)*/
 }
 
-.Skills{
+.Name {
+  color: antiquewhite;
+
+}
+
+.Skills {
   display: flex;
   justify-content: center;
   gap: 10px;
   flex-wrap: wrap;
 }
 
-.SubSkill{
+.SubSkill {
   border: 2px solid rgb(188, 242, 252);
-  background-color:rgb(28, 28, 60);
+  background-color: rgb(28, 28, 60);
   padding-top: 0px;
   padding-bottom: 0px;
   padding-left: 5px;
@@ -134,12 +144,12 @@ h5{
   border-radius: 10px;
 }
 
-.Demo a{
+.Demo a {
   text-decoration: none;
   color: inherit;
 }
 
-.Demo p{
+.Demo p {
   display: inline-block;
   border: 2px solid rgb(118, 29, 196);
   background-color: rgb(228, 200, 255);
@@ -151,7 +161,7 @@ h5{
   color: black;
 }
 
-.Demo p:hover{
+.Demo p:hover {
   box-shadow: 0px 3px 2px rgb(57, 39, 63);
   background-color: rgb(94, 38, 94);
   border-color: rgb(255, 194, 255);
@@ -160,13 +170,15 @@ h5{
 
 }
 
-@media (max-width: 800px) { /*When screen size becomes 800px, then it automatically becomes 1 column instead of 2 columns for Projects.*/
+@media (max-width: 800px) {
+
+  /*When screen size becomes 800px, then it automatically becomes 1 column instead of 2 columns for Projects.*/
   .ProjectBox {
     flex: 0 0 100%;
   }
 }
 
-footer .Copyright{
+footer .Copyright {
   display: flex;
   color: white;
   justify-content: center;
