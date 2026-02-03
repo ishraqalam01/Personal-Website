@@ -102,7 +102,7 @@ nav .container {
   flex-wrap: wrap;
   column-gap: 80px;
   row-gap: 3vh;
-  color: white;
+  color: rgb(70, 111, 193);
   font-size: clamp(14px, 1.2vw, 18px);
 }
 
@@ -123,7 +123,7 @@ h5 {
 }
 
 .Name {
-  color: #FFF4B7;
+  color: #ffffff;
 
 }
 
@@ -132,6 +132,7 @@ h5 {
   justify-content: center;
   gap: 10px;
   flex-wrap: wrap;
+  color: white;
 }
 
 .SubSkill {
