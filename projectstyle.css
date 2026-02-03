@@ -102,7 +102,7 @@ nav .container {
   flex-wrap: wrap;
   column-gap: 80px;
   row-gap: 3vh;
-  color: rgb(70, 111, 193);
+  color: #728792;
   font-size: clamp(14px, 1.2vw, 18px);
 }
 
